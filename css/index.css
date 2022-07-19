@@ -1,0 +1,46 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.navigation{
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-brand{
+  font-family: 'Shrikhand', cursive;
+  margin: auto 100px;
+}
+
+.navigation-links{
+  margin-right: 100px;
+}
+.navigation-links a{
+  margin: auto 20px;
+  text-decoration: none;
+}
+.navigation-brand,.navigation-links a{
+  color: #4c7d91;
+}
+
+.introduction{
+  background-color:#4c7d91;
+  padding: 100px;
+}
+.introduction-greeting{
+  color: #fff;
+  width: 50%;
+}
+.introduction-greeting a{
+  color: #fff;
+  margin: auto 10px;
+  text-decoration: none;
+}
+.introduction-greeting .thin{
+  font-weight: normal;
+}
+.introduction-greeting .thick{
+  font-weight: bold;
+}
